@@ -1,0 +1,43 @@
+.navContainer {
+  display: flex;
+  justify-content: flex-end;
+  width: 180px;
+  height: 100vh;
+  border: 1px solid red;
+
+  .nav {
+    display: flex;
+    justify-self: flex-end;
+    width: 100%;
+
+    ul {
+      display: flex;
+    }
+
+    .navBtn {
+      display: flex;
+      flex-wrap: wrap;
+      place-content: center center;
+      height: 100vh;
+      width: 60px;
+      border: 0px;
+
+      p {
+        width: 450px;
+        border: 1px solid black;
+        transform: rotate(90deg);
+        font-size: 1.5rem;
+      }
+    }
+
+    .navBtn:nth-child(1) {
+      background-color: var(--blue);
+    }
+    .navBtn:nth-child(2) {
+      background-color: var(--red);
+    }
+    .navBtn:nth-child(3) {
+      background-color: var(--orange);
+    }
+  }
+}
