@@ -3,7 +3,6 @@
   justify-content: flex-end;
   width: 180px;
   height: 100vh;
-  border: 1px solid red;
 
   .nav {
     display: flex;
@@ -23,8 +22,8 @@
       border: 0px;
 
       p {
+        text-align: center;
         width: 450px;
-        border: 1px solid black;
         transform: rotate(90deg);
         font-size: 1.5rem;
       }
